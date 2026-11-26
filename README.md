@@ -1,13 +1,13 @@
 <div align="center">
 
-**English** · [简体中文](docs/readme/README_zh.md) · [繁體中文](docs/readme/README_zh-TW.md) · [日本語](docs/readme/README_ja.md) · [한국어](docs/readme/README_ko.md) · [Türkçe](docs/readme/README_tr.md) · [Русский](docs/readme/README_ru.md) · [Tiếng Việt](docs/readme/README_vi.md) · [ไทย](docs/readme/README_th.md) · [Deutsch](docs/readme/README_de.md) · [Español](docs/readme/README_es.md) · [Français](docs/readme/README_fr.md) · [Українська](docs/readme/README_uk.md) · [Polski](docs/readme/README_pl.md) · [Português (Brasil)](docs/readme/README_pt-BR.md) · [العربية](docs/readme/README_ar.md) · [فارسی](docs/readme/README_fa.md) · [Bahasa Indonesia](docs/readme/README_id.md) · [Italiano](docs/readme/README_it.md)
+[English](docs/readme/README_en.md) · [简体中文](docs/readme/README_zh.md) · [繁體中文](docs/readme/README_zh-TW.md) · [日本語](docs/readme/README_ja.md) · [한국어](docs/readme/README_ko.md) · [Türkçe](docs/readme/README_tr.md) · [Русский](docs/readme/README_ru.md) · [Tiếng Việt](docs/readme/README_vi.md) · [ไทย](docs/readme/README_th.md) · [Deutsch](docs/readme/README_de.md) · **Español** · [Français](docs/readme/README_fr.md) · [Українська](docs/readme/README_uk.md) · [Polski](docs/readme/README_pl.md) · [Português (Brasil)](docs/readme/README_pt-BR.md) · [العربية](docs/readme/README_ar.md) · [فارسی](docs/readme/README_fa.md) · [Bahasa Indonesia](docs/readme/README_id.md) · [Italiano](docs/readme/README_it.md)
 · [Ελληνικά](docs/readme/README_el.md) · [മലയാളം](docs/readme/README_ml.md) · [Roman Urdu](docs/readme/README_ur-Latn.md) · [Română](docs/readme/README_ro.md) · [Български](docs/readme/README_bg.md)
 
-# REA: Reverse Engineer Anything
+# REA: Ingeniería inversa de cualquier cosa
 
-### One MCP for reverse engineering across binaries, applications, and runtime behavior.
+### Un solo MCP para ingeniería inversa de binarios, aplicaciones y comportamiento en ejecución.
 
-**See a feature you like. Understand how it works, down to the binary level.**
+**¿Ves una función que te gusta? Entiende cómo funciona, hasta el nivel binario.**
 
 [![GitHub stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&logo=github)](https://github.com/morluto/rea/stargazers)
 [![Monthly npm downloads](https://img.shields.io/npm/dm/rea-agents?style=flat-square&label=npm%20downloads)](https://www.npmjs.com/package/rea-agents)
@@ -17,38 +17,38 @@
 [![Supported platforms: macOS, Windows, and Linux](https://img.shields.io/badge/macOS%20%7C%20Windows%20%7C%20Linux-4493F8?style=flat-square)](docs/getting-started/installation.md)
 [![skills.sh](https://skills.sh/b/morluto/rea?style=flat-square)](https://skills.sh/morluto/rea/reverse-engineer-anything)
 
-**[Website](https://rea.tools/) · [Guides](https://rea.tools/guides/) · [Showcases](https://rea.tools/showcase/)**
+**[Sitio web](https://rea.tools/es/) · [Guías](https://rea.tools/es/guides/) · [Casos prácticos](https://rea.tools/es/showcase/)**
 
-<a href="https://discord.com/invite/GkcryMnJDM"><img alt="Join the REA community on Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
+<a href="https://discord.com/invite/GkcryMnJDM"><img alt="Únete a la comunidad de REA en Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
-[Quick start](#quick-start) · [Showcases](#showcases) · [How REA works](#how-rea-works) · [What you can analyze](#what-you-can-analyze) · [Build RL environments](#build-rl-environments) · [FAQ](#faq) · [Documentation](#documentation)
+[Inicio rápido](#inicio-rápido) · [Casos prácticos](#casos-prácticos) · [Cómo funciona REA](#cómo-funciona-rea) · [Qué puedes analizar](#qué-puedes-analizar) · [Crear entornos de RL](#build-rl-environments) · [Preguntas frecuentes](#preguntas-frecuentes) · [Documentación](#documentación)
 
 <code>npx rea-agents setup</code>
 
 </div>
 
 > [!IMPORTANT]
-> Get REA from [morluto/rea](https://github.com/morluto/rea),
-> [rea.tools](https://rea.tools/), or the [rea-agents npm package](https://www.npmjs.com/package/rea-agents).
-> Follow the installation and release links from these official sources. A similar
-> repository name or copied README does not establish that a download is official.
+> Obtén REA desde [morluto/rea](https://github.com/morluto/rea),
+> [rea.tools](https://rea.tools/) o el [paquete npm rea-agents](https://www.npmjs.com/package/rea-agents).
+> Sigue los enlaces de instalación y de versiones de estas fuentes oficiales. Un nombre
+> de repositorio similar o un README copiado no demuestran que una descarga sea oficial.
 
 <div align="center">
 
 <br />
 
-<img src="docs/assets/rea-hopper-analysis.png" alt="REA launching its analysis bridge inside Hopper while inspecting a native binary" width="1200" />
+<img src="docs/assets/rea-hopper-analysis.png" alt="REA inicia su puente de análisis dentro de Hopper mientras inspecciona un binario nativo" width="1200" />
 
 <br /><br />
 
-<table aria-label="REA community">
+<table aria-label="Comunidad REA">
 <tr>
 <td align="center" width="360">
   <a href="https://discord.gg/GkcryMnJDM">
     <img src="docs/assets/discord.svg" height="42" alt="Discord" /><br />
-    <strong>Join the Reverse Engineering Community</strong>
+    <strong>Únete a la comunidad de ingeniería inversa</strong>
   </a><br />
-  <sub>Discord · Q&amp;A · Show and Tell</sub>
+  <sub>Discord · Preguntas y respuestas · Comparte tus resultados</sub>
 </td>
 </tr>
 </table>
@@ -59,89 +59,76 @@
 
 ---
 
-See a feature in an app that you want in your own product? Ask your agent to investigate it with REA. It can inspect the app without its source code, explain how the feature works, show the evidence, and build a version for your project.
+¿Viste una función en una aplicación que quieres incorporar a tu propio producto? Pídele a tu agente que la investigue con REA. Puede inspeccionar la aplicación sin su código fuente, explicar cómo funciona la función, mostrar la evidencia y crear una versión para tu proyecto.
 
-REA connects your agent to tools for inspecting native binaries, JavaScript and Electron apps, .NET assemblies, and websites. You can also use the same tools from your terminal. Analysis runs locally, and results include the evidence and limitations behind each conclusion.
+REA conecta tu agente con herramientas para inspeccionar binarios nativos, aplicaciones JavaScript y Electron, ensamblados .NET y sitios web. También puedes usar las mismas herramientas desde tu terminal. El análisis se ejecuta localmente y los resultados incluyen la evidencia y las limitaciones que respaldan cada conclusión.
 
-Setup registers REA with your agent and installs matching workflow instructions. Native analysis can use an existing Hopper, Ghidra, IDA or Kuna installation; setup can optionally install Hopper with approval. Static JavaScript analysis needs no native analysis engine.
+La configuración registra REA en tu agente e instala las instrucciones de flujo de trabajo correspondientes. El análisis nativo puede usar una instalación existente de Hopper, Ghidra, IDA o Kuna; la configuración puede instalar Hopper de forma opcional con tu aprobación. El análisis estático de JavaScript no necesita un motor de análisis nativo.
 
-## Quick start
+## Inicio rápido
 
-**[Get started at rea.tools](https://rea.tools/get-started/)** for step-by-step
-instructions by operating system, agent, and analysis provider.
+**[Comienza en rea.tools](https://rea.tools/get-started/)** para ver instrucciones paso a paso según tu sistema operativo, agente y proveedor de análisis.
 
-### Connect your agent (MCP)
+### Conecta tu agente (MCP)
 
-With [Node.js and npm](docs/reference/supported-targets.md) installed, run this from a trusted
-directory outside the project you plan to analyze.
+Con [Node.js y npm](docs/reference/supported-targets.md) instalados, ejecuta este comando desde un directorio de confianza fuera del proyecto que planeas analizar.
 
 ```bash
 npx rea-agents setup
 ```
 
-Choose your agent, review and approve the setup plan, then restart your agent.
-Setup backs up existing configuration and adds REA's MCP connection and
-investigation skill. See the
-[installation guide](docs/getting-started/installation.md) for supported clients,
-plugins, manual registration, and troubleshooting.
+Elige tu agente, revisa y aprueba el plan de configuración, y luego reinicia tu agente. La configuración hace una copia de seguridad de la configuración existente y agrega la conexión MCP de REA y la skill de investigación. Consulta la [guía de instalación](docs/getting-started/installation.md) para ver los clientes compatibles, los plugins, el registro manual y la solución de problemas.
 
-Try asking your agent:
+Prueba preguntándole a tu agente:
 
 ```text
-Understand how search works in the Notes app, show me the evidence, and build a
-similar feature for my project.
+Entiende cómo funciona la búsqueda en la aplicación Notes, muéstrame la evidencia y crea
+una función similar para mi proyecto.
 ```
 
-Replace Notes with your target app and the feature you want to understand.
+Reemplaza Notes con tu aplicación objetivo y la función que quieres entender.
 
-### Use REA from the terminal (CLI)
+### Usa REA desde la terminal (CLI)
 
-Inspect an extracted JavaScript/Electron app directory or ASAR:
+Inspecciona un directorio extraído de una aplicación JavaScript/Electron o un ASAR:
 
 ```bash
 npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --json
 ```
 
-The result includes modules, imports, Electron boundaries and their evidence.
-Replace the path with your target, such as `"D:/apps/example"` on Windows.
+El resultado incluye módulos, importaciones, límites de Electron y su evidencia. Reemplaza la ruta con tu objetivo, por ejemplo `"D:/apps/example"` en Windows.
 
-To install the `rea` command for regular use:
+Para instalar el comando `rea` y usarlo de forma habitual:
 
 ```bash
 npm install --global rea-agents
 rea --help
 ```
 
-For native analysis, configure a provider first. The
-[CLI and Evidence guide](docs/getting-started/cli.md) covers provider selection,
-native commands, snapshots, and scripting. For Linux prerequisites, see the
-[installation guide](docs/getting-started/installation.md#linux-owned-process-prerequisite).
+Para el análisis nativo, configura un proveedor primero. La [guía de CLI y Evidence](docs/getting-started/cli.md) cubre la selección de proveedores, los comandos nativos, las capturas de estado y el uso en scripts. Para los requisitos previos de Linux, consulta la [guía de instalación](docs/getting-started/installation.md#linux-owned-process-prerequisite).
 
-### Update REA
+### Actualiza REA
 
-For a global npm or Bun installation, run the updater and follow its setup
-instructions.
+Para una instalación global con npm o Bun, ejecuta el actualizador y sigue sus instrucciones de configuración.
 
 ```bash
 rea update
 ```
 
-If you use `npx`, refresh your agent setup with:
+Si usas `npx`, actualiza la configuración de tu agente con:
 
 ```bash
 npx rea-agents@latest setup
 ```
 
-Review the setup changes and restart your agent. See
-[update and uninstall instructions](docs/getting-started/installation.md#diagnose-update-and-remove)
-for package runner options and troubleshooting.
+Revisa los cambios de configuración y reinicia tu agente. Consulta las [instrucciones de actualización y desinstalación](docs/getting-started/installation.md#diagnose-update-and-remove) para ver las opciones del gestor de paquetes y la solución de problemas.
 
-## Showcases
+## Casos prácticos
 
 <a href="https://rea.tools/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/rea-showcases-dark.svg" />
-    <img alt="Illustrations of the DX-Ball sound-pan, Notion clipboard-bridge, and TH04 bullet-ring showcases" src="docs/assets/rea-showcases.svg" />
+    <img alt="Ilustraciones de los casos de paneo de sonido de DX-Ball, el puente del portapapeles de Notion y el anillo de proyectiles de TH04" src="docs/assets/rea-showcases.svg" />
   </picture>
 </a>
 
@@ -149,216 +136,200 @@ for package runner options and troubleshooting.
 <tbody>
 <tr>
 <td>
-<h3>DX-Ball: reconstruct a sound-pan calculation</h3>
-<p>Recover a position-to-pan helper from x86 instructions and verify the C reconstruction against 3,205 original-x86 cases and all 63 compiled function bytes.</p>
-<a href="https://rea.tools/showcase/dx-ball/">Read the case study</a> ·
-<a href="https://github.com/N0zoM1z0/dx-ball">Reconstruction repository</a>
+<h3>DX-Ball: reconstruir un cálculo de paneo de sonido</h3>
+<p>Recupera una función auxiliar que convierte la posición en paneo a partir de instrucciones x86 y verifica la reconstrucción en C contra 3,205 casos del x86 original y los 63 bytes de la función compilada.</p>
+<a href="https://rea.tools/showcase/dx-ball/">Lee el caso práctico</a> ·
+<a href="https://github.com/N0zoM1z0/dx-ball">Repositorio de reconstrucción</a>
 </td>
 </tr>
 <tr>
 <td>
-<h3>Notion: trace the Electron clipboard bridge</h3>
-<p>Follow the renderer’s clipboard API through preload and IPC into the main process to see how Notion handles rich clipboard data.</p>
-<a href="https://rea.tools/showcase/notion/">Read the case study</a>
+<h3>Notion: rastrear el puente del portapapeles de Electron</h3>
+<p>Sigue la API del portapapeles del proceso de renderizado a través de preload e IPC hasta el proceso principal para ver cómo Notion maneja los datos enriquecidos del portapapeles.</p>
+<a href="https://rea.tools/showcase/notion/">Lee el caso práctico</a>
 </td>
 </tr>
 <tr>
 <td>
-<h3>TH04: recover a DOS bullet-ring calculation</h3>
-<p>Recover fixed and aimed angle calculations from the PC-98 game’s 16-bit instructions and compare the reconstructed C++ with historical compiler output.</p>
-<a href="https://rea.tools/showcase/th04/">Read the case study</a> ·
-<a href="https://github.com/N0zoM1z0/th04">Reconstruction repository</a>
+<h3>TH04: recuperar el cálculo de un anillo de proyectiles en DOS</h3>
+<p>Recupera los cálculos de ángulos fijos y dirigidos a partir de las instrucciones de 16 bits del juego de PC-98 y compara el C++ reconstruido con la salida del compilador de la época.</p>
+<a href="https://rea.tools/showcase/th04/">Lee el caso práctico</a> ·
+<a href="https://github.com/N0zoM1z0/th04">Repositorio de reconstrucción</a>
 </td>
 </tr>
 </tbody>
 </table>
 
-If you've used REA on something interesting, we'd love to see it. Share your
-case in an [issue](https://github.com/morluto/rea/issues) or a
-[pull request](https://github.com/morluto/rea/pulls), including the target,
-your question, how REA helped, and what you found.
+Si usaste REA para algo interesante, nos encantaría verlo. Comparte tu caso en un
+[issue](https://github.com/morluto/rea/issues) o una
+[pull request](https://github.com/morluto/rea/pulls), incluidos el objetivo,
+tu pregunta, cómo te ayudó REA y lo que encontraste.
 
-## How REA works
+## Cómo funciona REA
 
-Your agent uses REA through MCP to inspect a target and trace the relevant code.
-It can use the evidence REA returns to ask follow-up questions, explain behavior,
-or build and test an implementation. The CLI uses the same workflows.
+Tu agente usa REA a través de MCP para inspeccionar un objetivo y rastrear el código relevante. Puede usar la evidencia que REA devuelve para hacer preguntas de seguimiento, explicar el comportamiento o crear y probar una implementación. La CLI usa los mismos flujos de trabajo.
 
-![REA investigation flow: your agent asks about a local target, REA inspects and traces it using analysis tools, and the agent uses the returned code, references and unknowns to explain, implement and test.](website/public/assets/figures/rea-investigation-flow.svg)
+![Flujo de investigación de REA: tu agente pregunta sobre un objetivo local, REA lo inspecciona y rastrea con herramientas de análisis, y el agente usa el código, las referencias y los aspectos desconocidos devueltos para explicar, implementar y probar.](website/public/assets/figures/rea-investigation-flow.svg)
 
-[Open the full-size figure](website/public/assets/figures/rea-investigation-flow.svg).
+[Abre la figura a tamaño completo](website/public/assets/figures/rea-investigation-flow.svg).
 
 <a id="current-status"></a>
 
-## What you can analyze
+## Qué puedes analizar
 
-REA covers native binaries, JavaScript and Electron apps, websites, .NET
-assemblies, Android apps, firmware, and recorded runtime and network activity.
+REA cubre binarios nativos, aplicaciones JavaScript y Electron, sitios web, ensamblados .NET, aplicaciones de Android, firmware y actividad de ejecución y red registrada.
 
-[Supported targets and requirements](docs/reference/supported-targets.md)
+[Objetivos compatibles y requisitos](docs/reference/supported-targets.md)
 
 <a id="choosing-a-deep-analysis-provider"></a>
 
-For native decompilation, choose a provider that supports your target format
-and host OS. See [choosing a deep analysis provider](docs/reference/supported-targets.md#choosing-a-deep-analysis-provider).
+Para la descompilación nativa, elige un proveedor que admita el formato de tu objetivo y el sistema operativo de tu computadora. Consulta [cómo elegir un proveedor de análisis profundo](docs/reference/supported-targets.md#choosing-a-deep-analysis-provider).
 
-## Build RL environments
+## Crear entornos de RL
 
-Build a local environment from a recorded web session or a Linux desktop app
-so an agent can practice a task and check its result.
-[Build an RL environment with REA](https://rea.tools/guides/rl-environments/).
+Crea un entorno local a partir de una sesión web grabada o de una aplicación de escritorio Linux para que un agente practique una tarea y verifique el resultado.
+[Crea un entorno de RL con REA](https://rea.tools/guides/rl-environments/).
 
-## FAQ
+## Preguntas frecuentes
 
 <details>
-<summary><strong>Which agents can use REA?</strong></summary>
+<summary><strong>¿Qué agentes pueden usar REA?</strong></summary>
 
-Any agent that supports local MCP servers. Setup configures the
-[supported agents](docs/getting-started/installation.md#supported-agents); other clients can use
-[manual MCP registration](docs/getting-started/installation.md#mcp-registry).
+Cualquier agente que admita servidores MCP locales. La configuración prepara los
+[agentes compatibles](docs/getting-started/installation.md#supported-agents); otros clientes pueden usar el
+[registro manual de MCP](docs/getting-started/installation.md#mcp-registry).
 
 </details>
 
 <details>
-<summary><strong>Do I need a native analysis engine?</strong></summary>
+<summary><strong>¿Necesito un motor de análisis nativo?</strong></summary>
 
-Deep native analysis uses Hopper, Ghidra, IDA or Kuna, depending on the target
-and operation. Static JavaScript and .NET inspection work without a native
-analysis engine. Setup can install Hopper after approval; Ghidra, IDA and Kuna
-use your existing installations. See [provider setup](docs/getting-started/installation.md#hopper)
-for the options and their supported targets.
-
-</details>
-
-<details>
-<summary><strong>Do I need to start Hopper first?</strong></summary>
-
-REA starts Hopper when an operation needs it. On macOS, a first-run dialog may
-ask you to choose demo mode or activate your license. Complete that prompt in the
-same user session before your first CLI/MCP operation or unattended job. Open
-Hopper manually if needed. See
-[Hopper startup and troubleshooting](docs/getting-started/installation.md#launcher-paths-and-troubleshooting).
+El análisis nativo profundo usa Hopper, Ghidra, IDA o Kuna, según el objetivo
+y la operación. La inspección estática de JavaScript y .NET funciona sin un motor de
+análisis nativo. La configuración puede instalar Hopper después de tu aprobación; Ghidra, IDA y Kuna
+usan tus instalaciones existentes. Consulta la [configuración de proveedores](docs/getting-started/installation.md#hopper)
+para ver las opciones y los objetivos compatibles.
 
 </details>
 
 <details>
-<summary><strong>What does installing the skill from skills.sh do?</strong></summary>
+<summary><strong>¿Tengo que iniciar Hopper primero?</strong></summary>
 
-The skill supplies investigation instructions for your agent. Use `npx rea-agents setup`
-to register REA's MCP server and install the matching instructions, then restart
-your agent. See [skill-only installation](docs/getting-started/installation.md#skill-only-installation).
-
-</details>
-
-<details>
-<summary><strong>What code does REA return?</strong></summary>
-
-Native analysis returns pseudocode and assembly. JavaScript/Electron analysis
-recovers modules and their relationships. Your agent uses these findings to
-write and test an implementation; the [showcases](#showcases) give worked examples.
+REA inicia Hopper cuando una operación lo necesita. En macOS, un diálogo de primer uso puede
+pedirte que elijas el modo de demostración o que actives tu licencia. Completa ese aviso en
+la misma sesión de usuario antes de tu primera operación de CLI/MCP o trabajo desatendido. Abre
+Hopper manualmente si es necesario. Consulta
+[inicio de Hopper y solución de problemas](docs/getting-started/installation.md#launcher-paths-and-troubleshooting).
 
 </details>
 
 <details>
-<summary><strong>Does REA upload my app?</strong></summary>
+<summary><strong>¿Qué hace la instalación de la skill desde skills.sh?</strong></summary>
 
-REA analyzes targets locally. Your agent receives the tool results, and its
-model provider has its own data policy.
+La skill proporciona instrucciones de investigación a tu agente. Usa `npx rea-agents setup`
+para registrar el servidor MCP de REA e instalar las instrucciones correspondientes; luego reinicia
+tu agente. Consulta la [instalación solo de la skill](docs/getting-started/installation.md#skill-only-installation).
 
 </details>
 
 <details>
-<summary><strong>What should I do if I hit a bug?</strong></summary>
+<summary><strong>¿Qué código devuelve REA?</strong></summary>
 
-Update first; a recent release may already fix it.
+El análisis nativo devuelve pseudocódigo y ensamblador. El análisis de JavaScript/Electron
+recupera módulos y sus relaciones. Tu agente usa estos hallazgos para
+escribir y probar una implementación; los [casos prácticos](#casos-prácticos) ofrecen ejemplos resueltos.
 
-For a CLI installed with `npm install --global` or `bun add --global`:
+</details>
+
+<details>
+<summary><strong>¿REA sube mi aplicación?</strong></summary>
+
+REA analiza los objetivos localmente. Tu agente recibe los resultados de las herramientas, y su
+proveedor de modelos tiene su propia política de datos.
+
+</details>
+
+<details>
+<summary><strong>¿Qué debo hacer si encuentro un error?</strong></summary>
+
+Actualiza primero; es posible que una versión reciente ya lo haya corregido.
+
+Para una CLI instalada con `npm install --global` o `bun add --global`:
 
 ```bash
 rea update
 ```
 
-For agent setup through `npx`:
+Para la configuración del agente mediante `npx`:
 
 ```bash
 npx rea-agents@latest setup
 ```
 
-If you're using an agent, complete the [setup refresh](#update-rea) and restart
-it. Retry the same task. If the problem persists, [open an issue](https://github.com/morluto/rea/issues)
-with your REA version, target type, steps to reproduce and error output.
+Si usas un agente, completa la [actualización de la configuración](#actualiza-rea) y reinícialo.
+Repite la misma tarea. Si el problema persiste, [abre un issue](https://github.com/morluto/rea/issues)
+con tu versión de REA, el tipo de objetivo, los pasos para reproducirlo y la salida del error.
 
 </details>
 
-## Documentation
+## Documentación
 
-Start with the website's [worked guides](https://rea.tools/guides/).
-For exact options, prerequisites and result contracts:
+Empieza con las [guías prácticas](https://rea.tools/guides/) del sitio web.
+Para ver las opciones exactas, los requisitos previos y los contratos de resultados:
 
-- [Installation and setup](docs/getting-started/installation.md): agent registration, provider configuration, updates and uninstall.
-- [Readiness and troubleshooting](docs/getting-started/installation.md#check-readiness-for-your-task): diagnose one agent or analysis engine.
-- [CLI and Evidence](docs/getting-started/cli.md): commands, provider selection, snapshots, import/export and exit statuses.
-- [MCP contracts](docs/reference/mcp-contracts.md) and [agent prompts](docs/getting-started/mcp-prompts.md): tool results, sessions and guided investigations.
-- [Tool catalog](docs/reference/mcp-contracts.md#generated-catalog): generated inventory of tools, providers and CLI commands.
+- [Instalación y configuración](docs/getting-started/installation.md): registro de agentes, configuración de proveedores, actualizaciones y desinstalación.
+- [Preparación y solución de problemas](docs/getting-started/installation.md#check-readiness-for-your-task): diagnostica un agente o un motor de análisis.
+- [CLI y Evidence](docs/getting-started/cli.md): comandos, selección de proveedores, capturas de estado, importación/exportación y estados de salida.
+- [Contratos de MCP](docs/reference/mcp-contracts.md) y [prompts para agentes](docs/getting-started/mcp-prompts.md): resultados de herramientas, sesiones e investigaciones guiadas.
+- [Catálogo de herramientas](docs/reference/mcp-contracts.md#generated-catalog): inventario generado de herramientas, proveedores y comandos de CLI.
 
-Report vulnerabilities through [SECURITY.md](SECURITY.md).
+Informa vulnerabilidades a través de [SECURITY.md](SECURITY.md).
 
-## Community & Support
+## Comunidad y soporte
 
-- **Discord** — Ask questions and share what you’re investigating with our passionate community of over 50,000 reverse engineers and builders! [![Join the REA Discord](https://img.shields.io/badge/Join%20Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/GkcryMnJDM)
-- **Twitter / X** — Follow [@reatools](https://x.com/reatools) for updates and announcements.
-- **Feedback & Ideas** — Want a new feature or support for a file format? [Open a GitHub issue](https://github.com/morluto/rea/issues) or [join our Discord](https://discord.gg/GkcryMnJDM) and let us know.
+- **Discord** — Haz preguntas y comparte lo que estás investigando con nuestra apasionada comunidad de más de 50,000 ingenieros inversos y creadores. [![Únete al Discord de REA](https://img.shields.io/badge/Join%20Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/GkcryMnJDM)
+- **Twitter / X** — Sigue a [@reatools](https://x.com/reatools) para recibir novedades y anuncios.
+- **Comentarios e ideas** — ¿Quieres una función nueva o compatibilidad con un formato de archivo? [Abre un issue en GitHub](https://github.com/morluto/rea/issues) o [únete a nuestro Discord](https://discord.gg/GkcryMnJDM) y cuéntanos.
 
-## Star history
+## Historial de estrellas
 
-🎉 **400,000 GitHub stars — thank you!**
+🎉 **400,000 estrellas en GitHub: ¡gracias!**
 
-Thanks to everyone using REA, reporting bugs, requesting features, testing builds, and contributing fixes.
+Gracias a todas las personas que usan REA, reportan errores, solicitan funciones, prueban compilaciones y contribuyen con correcciones.
 
 <a href="https://rea.tools/contributors/">
-  <img src="website/public/contributors/avatars.png" alt="REA contributors" />
+  <img src="website/public/contributors/avatars.png" alt="Colaboradores de REA" />
 </a>
 
 <a href="https://www.star-history.com/?repos=morluto%2Frea&amp;type=date">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date&amp;theme=dark&amp;legend=top-left" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date" />
-    <img alt="REA GitHub star history" src="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date" />
+    <img alt="Historial de estrellas de REA en GitHub" src="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date" />
   </picture>
 </a>
 
-## Contributing
+## Contribuir
 
-We'd love your help with REA! [Open an issue](https://github.com/morluto/rea/issues) to
-report a bug or suggest a feature, or [send a pull request](https://github.com/morluto/rea/pulls)
-to improve the code or docs.
+¡Nos encantaría contar con tu ayuda en REA! [Abre un issue](https://github.com/morluto/rea/issues) para
+reportar un error o sugerir una función, o [envía una pull request](https://github.com/morluto/rea/pulls)
+para mejorar el código o la documentación.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and checks. See the
-[testing guide](docs/development/testing.md) for verification lanes.
+Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para la configuración del entorno de desarrollo y las comprobaciones. Consulta la
+[guía de pruebas](docs/development/testing.md) para los procesos de verificación.
 
-## Disclaimer
+## Aviso legal
 
-See [DISCLAIMER.md](DISCLAIMER.md) for responsible-use guidance.
+Consulta [DISCLAIMER.md](DISCLAIMER.md) para obtener orientación sobre el uso responsable.
 
-The project's position on illegal or unauthorized use covers all REA versions,
-distribution channels, and platforms; each copy retains its applicable licenses.
+La postura del proyecto sobre el uso ilegal o no autorizado abarca todas las versiones, canales de distribución y plataformas de REA; cada copia conserva sus licencias aplicables.
 
-REA is for lawful research, education, interoperability, software preservation,
-and analysis of software you own or are authorized to examine.
+REA es para investigación lícita, educación, interoperabilidad, preservación de software y análisis de software que posees o estás autorizado a examinar.
 
-## License
+## Licencia
 
 [MIT](LICENSE)
 
-REA-authored code is licensed under MIT. Third-party material retains its own
-licenses and copyright notices; see
-[Third-party notices](THIRD_PARTY_NOTICES.md) for the dependency inventory,
-preserved license texts, and external-tool terms.
+El código creado por REA está bajo licencia MIT. El material de terceros conserva sus propias licencias y avisos de derechos de autor; consulta [Avisos de terceros](THIRD_PARTY_NOTICES.md) para ver el inventario de dependencias, los textos de licencia conservados y los términos de las herramientas externas.
 
-**You must legally obtain and be authorized to use commercial tools**, including
-IDA Pro / Hex-Rays decompilers, Hopper, and JEB, under their applicable
-licenses. REA grants no tool license, key, or activation entitlement. Trials and
-demos remain subject to vendor terms, including user, feature, automation, and
-output sharing restrictions. Cracked copies, stolen keys, unauthorized key
-sharing, and bypassing license restrictions are not authorized. This guidance
-does not amend MIT or third-party licenses.
+**Debes obtener y estar autorizado legalmente para usar herramientas comerciales**, incluidos los descompiladores IDA Pro / Hex-Rays, Hopper y JEB, bajo sus licencias aplicables. REA no otorga licencias, claves ni derechos de activación de herramientas. Las pruebas y demostraciones siguen sujetas a los términos del proveedor, incluidas las restricciones de usuarios, funciones, automatización y uso compartido de resultados. Las copias pirateadas, las claves robadas, el uso compartido no autorizado de claves y la evasión de restricciones de licencia no están autorizados. Esta orientación no modifica las licencias MIT ni las de terceros.
