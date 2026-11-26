@@ -33,6 +33,9 @@
 > Sigue los enlaces de instalación y de versiones de estas fuentes oficiales. Un nombre
 > de repositorio similar o un README copiado no demuestran que una descarga sea oficial.
 
+> [!NOTE]
+> Este repositorio es una copia en español latinoamericano de [morluto/rea](https://github.com/morluto/rea). El código corresponde a REA 6.10.1 y la documentación principal está traducida al español.
+
 <div align="center">
 
 <br />
